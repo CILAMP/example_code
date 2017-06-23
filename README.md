@@ -1,13 +1,18 @@
-# integrations
-Growing collection of CI system integrations using CILamp API
+CILamp API code examples
+========================
+This repository contains examples of how to control a CILamp from different languages:
 
-Wish list
-=========
+ - Java
+ - JavaScript
+ - SQL
+ - Python
+ - Missing: C#/.NET, Delphi, perl, C/C++, ...
 
-* TFS plugin
-* Jenkins plugin
-* BuildBot plugin
-* TeamCity plugin
+How to use
+----------
+Just copy-paste the relevant example and start hacking! :)
 
-You interested in building a plugin utilizing CILamp for any of those systems? Please go ahead! :)
+Contribute
+----------
+We want to have examples in any and all esoteric language out there! If you can make an HTTPs POST call in your language, please make a merge request!
 
