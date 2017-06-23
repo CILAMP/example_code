@@ -2,6 +2,7 @@ CILamp API code examples
 ========================
 This repository contains examples of how to control a CILamp from different languages:
 
+ - bash/curl
  - Java
  - JavaScript
  - SQL
