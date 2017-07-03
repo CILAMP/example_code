@@ -1,6 +1,6 @@
-CILamp API code examples
+CILAMP API code examples
 ========================
-This repository contains examples of how to control a CILamp from different languages:
+This repository contains examples of how to control a CILAMP from different languages:
 
  - bash/curl
  - Java
