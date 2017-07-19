@@ -10,7 +10,7 @@ How to use:
 2. Install Node-fetch:
 	npm install node-fetch
 3. Run this script:
-	node cilamp_test.js
+	node nodejs_example.js
 
 */
 
