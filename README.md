@@ -1,13 +1,25 @@
 CILAMP API code examples
 ========================
+
 This repository contains examples of how to control a CILAMP from different languages:
 
  - bash/curl
  - Java
  - JavaScript
  - SQL
+ - Perl
  - Python
- - Missing: C#/.NET, Delphi, perl, C/C++, ...
+ 
+Wish list
+---------
+ - C
+ - C++
+ - C#/.NET
+ - Delphi
+ - Fortran
+ - Go
+ - Haskell
+ - ...
 
 How to use
 ----------
