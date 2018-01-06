@@ -1,11 +1,11 @@
 <#
 
 .SYNOPSIS
-Set the color and pulse attributes of a CILamp with a known system-ID.
+Set the color and pulse attributes of a CILAMP with a known system-ID.
 
 .DESCRIPTION
 The script accepts (and requires) three parameters:
--systemId (The ID that you give to your CILamp during the configuration phase. This id is used so that your CILamp knows what system it should listen to.)
+-systemId (The ID that you give to your CILAMP during the configuration phase. This id is used so that your CILAMP knows what system it should listen to.)
 -color (A six character long colorcode in hexadecimal notation. FF0000 is red, 00FF00 is corresponds to green and 0000FF is the blue.)
 -duration (The number of milliseconds that a pulse should last. If you set this to zero, the light will be stable and not pulsing)
 
@@ -19,7 +19,7 @@ If you start the script without parameters (like above), you will be prompted fo
 If you want to supply the parameters from the command prompt, provide them like above.
 
 .NOTES
-BEWARE, HERE IS A SUBLIMINAL MESSAGE: "Go and buy yourself a CILamp! Now!"
+BEWARE, HERE IS A SUBLIMINAL MESSAGE: "Go and buy yourself a CILAMP! Now!"
 .LINK
 http://www.cilamp.se
 
@@ -32,7 +32,7 @@ Param
     [Parameter(Mandatory=$true)][uint16]$duration
 )
 
-#Send color and period to CILamp
+#Send color and period to CILAMP
 $requestURL = "https://api.cilamp.se/v1/" + $systemId
 $postParams = @{color=$color;period=$duration}
 
